@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "text": {
+      "type": "string"
+    },
+    "isVisible": {
+      "type": "boolean"
+    }
+  },
+  "required": ["isVisible"],
+  "additionalProperties": false,
+  "if": {
+    "properties": {
+      "isVisible": { "const": true }
+    }
+  },
+  "then": {
+    "required": ["text"],
+    "properties": {
+      "text": {
+        "type": "string",
+        "minLength": 5
+      }
+    }
+  }
+}

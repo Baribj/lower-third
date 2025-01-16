@@ -1,5 +1,5 @@
 import type NodeCG from "@nodecg/types";
-import type { ExampleReplicant } from "../types/schemas/exampleReplicant";
+import type { LowerThirdSchema } from "../types/schemas/lowerThirdSchema";
 
 module.exports = function (nodecg: NodeCG.ServerAPI) {
   nodecg.log.info("Hello, from your bundle's extension!");
@@ -18,8 +18,8 @@ module.exports = function (nodecg: NodeCG.ServerAPI) {
 
   const exampleReplicant = nodecg.Replicant(
     "exampleReplicant"
-  ) as unknown as NodeCG.ServerReplicantWithSchemaDefault<ExampleReplicant>;
-  setInterval(() => {
+  ) as unknown as NodeCG.ServerReplicantWithSchemaDefault<LowerThirdSchema>;
+  /* setInterval(() => {
     exampleReplicant.value.age++;
-  }, 5000);
+  }, 5000); */
 };

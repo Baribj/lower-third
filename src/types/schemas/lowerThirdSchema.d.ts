@@ -6,12 +6,7 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
-export interface ExampleReplicant {
-	firstName: string;
-	lastName: string;
-	/**
-	 * Age in years
-	 */
-	age: number;
-	hairColor?: 'black' | 'brown' | 'blue';
+export interface LowerThirdSchema {
+	text?: string;
+	isVisible: boolean;
 }

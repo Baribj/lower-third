@@ -22,16 +22,16 @@
     "compatibleRange": "^2.0.0",
     "dashboardPanels": [
       {
-        "name": "panel",
-        "title": "Panel",
-        "width": 2,
-        "file": "panel.html",
+        "name": "lowerThird",
+        "title": "Lower third panel",
+        "width": 4,
+        "file": "lowerThird.html",
         "headerColor": "#525F78"
       }
     ],
     "graphics": [
       {
-        "file": "index.html",
+        "file": "LowerThird.html",
         "width": 1920,
         "height": 1080,
         "singleInstance": false
@@ -62,9 +62,12 @@
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^6.4.0",
     "@mui/material": "^6.4.0",
     "@types/react": "*",
     "@types/react-dom": "*",
+    "ajv": "^8.17.1",
+    "formik": "^2.4.6",
     "react": "*",
     "react-dom": "*",
     "ts-node": "*"
