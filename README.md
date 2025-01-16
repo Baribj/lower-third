@@ -14,7 +14,7 @@
 
 7- `git clone https://github.com/Baribj/lower-third.git`
 
-8- `cd lower-third-bundle`
+8- `cd lower-third`
 
 9- `npm i`
 
