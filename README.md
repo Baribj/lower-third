@@ -12,7 +12,7 @@
 
 6- `cd bundles`
 
-7- `git clone https://github.com/Baribj/lower-third-bundle.git`
+7- `git clone https://github.com/Baribj/lower-third.git`
 
 8- `cd lower-third-bundle`
 
