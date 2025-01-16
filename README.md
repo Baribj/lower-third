@@ -1,17 +1,21 @@
-# lower-third
+# How to run
 
-lower-third is a [NodeCG](http://github.com/nodecg/nodecg) bundle.
-It works with NodeCG versions which satisfy this [semver](https://docs.npmjs.com/getting-started/semantic-versioning) range: `^2.0.0`
-You will need to have an appropriate version of NodeCG installed to use it.
+1- `npm install --global nodecg@latest`
 
+2- `mkdir nodecg`
 
-## Developing
+3- `cd nodecg`
 
-Use the following commands:
+4- `nodecg setup`
 
--   `npm run build`: Build the project once.
--   `npm run watch`: Build the project and automatically rebuild on changes.
--   `npm run dev`: Build the project, automatically rebuild on changes, launch the NodeCG server, and automatically restart the NodeCG server on changes.
-    -   Only restarts the NodeCG server when server-side (i.e. extension) code changes. Changes to client-side code (i.e. dashboard panels and graphics) will not cause the server to restart, nor will they cause browser tabs to automatically refresh.
+5- `npm i`
 
+6- `cd bundles`
 
+7- `git clone https://github.com/Baribj/lower-third-bundle.git`
+
+8- `cd lower-third-bundle`
+
+9- `npm i`
+
+10- `npm run dev`
